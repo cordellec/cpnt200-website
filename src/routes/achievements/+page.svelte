@@ -3,15 +3,10 @@
   <img src="/achievement.jpg" alt="Card Image">
   <div class="card-content">
     <h2>ACHIEVEMENT 20</h2>
-    <a href="Obeject Value Treasure Hunt">Object Value Treasure Hunt</a>
+    <a href="achievements/object-value-treasure-hunt">Object Value Treasure Hunt</a>
   </div>
 </div>
 </div>
-
-
-
-
-
 
 <style>
   .container {
