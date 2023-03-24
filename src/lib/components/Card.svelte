@@ -24,8 +24,8 @@
 <div class="container">
   <!-- Created an #each loop that will loop through "pokemonCards" and it targets each poke variable that i assigned in the object-->
 {#each pokemonCards as poke}
-<a class="card-link" href="{poke.externalUrl}" target="_blank">
-  <div class="card">
+<div class="card">
+  <a class="card-link" href="{poke.externalUrl}" target="_blank">
     <div class="card-img">
       <img src="{poke.imageSrc}" alt="{poke.externalUrl}">
     </div>
@@ -51,8 +51,8 @@
       </div>
       <div class="card-element">{poke.element}</div>
     </div>
-  </div>
-</a>
+  </a>
+</div>
 {/each}
 </div>
 
