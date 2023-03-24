@@ -24,8 +24,8 @@
 <div class="container">
   <!-- Created an #each loop that will loop through "pokemonCards" and it targets each poke variable that i assigned in the object-->
 {#each pokemonCards as poke}
-<div class="card">
-  <a class="card-link" href="{poke.externalUrl}" target="_blank">
+<!-- Used the "window.open() method to route it to the external url, and than the "_blank" to a blank new tab-->
+<div class="card" onclick="window.open('{poke.externalUrl}', '_blank')">
     <div class="card-img">
       <img src="{poke.imageSrc}" alt="{poke.externalUrl}">
     </div>
@@ -51,10 +51,10 @@
       </div>
       <div class="card-element">{poke.element}</div>
     </div>
-  </a>
 </div>
 {/each}
 </div>
+
 
 <style>
 
@@ -93,6 +93,7 @@
   height: 100%;
   width: 100%;
   text-decoration: none;
+  opacity: 100%;
 }
 
 /* Creates the hover effect but scales it up by 10% */
