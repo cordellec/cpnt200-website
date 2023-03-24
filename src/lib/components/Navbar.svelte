@@ -7,7 +7,7 @@
 </script>
 
 <nav class="navbar">
-  <a href="/" class="nav-item">CPNT 200</a>
+  <a href="/" class="nav-item">CPNT 200 / CPNT 262</a>
   <div>
     {#each links as link}
       <a href="{link.url}" class="nav-item">{link.name}</a>
