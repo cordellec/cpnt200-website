@@ -1,38 +1,18 @@
-# create-svelte
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+CPNT-262-ASSIGNMENT 7 - Single Clickable Card
+## 🔗 Links
+Vercel: https://cpnt200-website.vercel.app/assignments
 
-## Creating a project
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Acknowledgements
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+ - https://www.pinterest.ca/pin/999588079772570685/ (Card Ideas)
+ - https://www.pinterest.ca/pin/378513543698857683/ (Card Ideas)
+ - https://www.youtube.com/watch?v=5yDKxhO2-Ps (Youtube Tutorial)
+ - https://www.youtube.com/watch?v=s2zhO_K5VoI&t=370s (Youtube Tutorial)
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
 
-## Developing
+## Authors
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+- [@cordellec](https://github.com/cordellec)
