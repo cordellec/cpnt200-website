@@ -2,7 +2,7 @@
 	<div class="card">
 		<img src="/achievement.jpg" alt="Card Image" />
 		<div class="card-content">
-			<h2>ACHIEVEMENT 20</h2>
+			<h2>ACHIEVEMENT 1</h2>
 			<a href="achievements/2023-03-23/object-value-treasure-hunt">Object Value Treasure Hunt</a>
 		</div>
 	</div>
@@ -12,10 +12,21 @@
 	<div class="card2">
 		<img src="/achievement.jpg" alt="Card Image" />
 		<div class="card-content">
-			<h2>PRACTICE / ACHIEVEMENT 21</h2>
+			<h2>PRACTICE / ACHIEVEMENT 2</h2>
 			<a href="achievements/2023-03-24-fetchingdata-with-pagejs"> Practice: Disney Api</a>
 			<a href="achievements/2023-03-24-fetchingdata-with-pagejs/albums"> List Entry: Achievement</a>
 			<a href="achievements/2023-03-24-fetchingdata-with-pagejs/pokemon-api"> Bonus: Pokemon Api</a>
+			
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="card">
+		<img src="/achievement.jpg" alt="Card Image" />
+		<div class="card-content">
+			<h2>ACHIEVEMENT 3</h2>
+			<a href="achievements/2023-03-28-supabase"> Supabase!</a>
 		</div>
 	</div>
 </div>
