@@ -6,6 +6,6 @@
 <h1>Coutnries</h1>
 <ul>
   {#each data.countries as country}
-  <li>{country.id}:{country.name}</li>
+  <li>{country.id}{country.name}</li>
   {/each}
 </ul>
