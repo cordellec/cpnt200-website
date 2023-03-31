@@ -3,7 +3,7 @@
 		<img src="/achievement.jpg" alt="Card Image" />
 		<div class="card-content">
 			<h2>ACHIEVEMENT 1</h2>
-			<a href="achievements/2023-03-23/object-value-treasure-hunt">Object Value Treasure Hunt</a>
+			<a href="achievements/2023-03-23-object-value-treasure-hunt">Object Value Treasure Hunt</a>
 		</div>
 	</div>
 </div>
@@ -30,6 +30,20 @@
 		</div>
 	</div>
 </div>
+
+<div class="container">
+	<div class="card">
+		<img src="/achievement.jpg" alt="Card Image" />
+		<div class="card-content">
+			<h2>ACHIEVEMENT 3</h2>
+			<a href="achievements/2023-03-29-supabase-achievement5"> Import Database from CSV</a>
+		</div>
+	</div>
+</div>
+
+
+
+
 
 <style>
 	.container {

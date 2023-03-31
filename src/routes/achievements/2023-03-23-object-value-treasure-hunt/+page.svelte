@@ -1,5 +1,5 @@
 <script>
-  import {queenArianna} from './disney';
+  import {queenArianna} from './disney.js';
 
 // Log the following values to the console
 
@@ -12,8 +12,8 @@ const queenID = queenArianna._id;
   console.log(queenArianna._id);
 
 // 2. An image of Queen Arianna
-const imageURL = queenArianna.imageUrl;
-  console.log(queenArianna.imageURL);
+const imageUrl = queenArianna.imageUrl;
+  console.log(queenArianna.imageUrl);
 
 // 3. Queen Arianna's first film (Tangled)
 const queenFirstFilm = queenArianna.films[0];
@@ -31,7 +31,7 @@ const queenSecondVideoGame = queenArianna.videoGames[1];
 
 <div class="container">
   <div class="card">
-    <img src={imageURL} alt={queenName + ' from Disney'}>
+    <img src={imageUrl} alt={queenName + ' from Disney'}>
     <div class="card-content">
       <h2>{queenName}</h2>
       <p>ID: {queenID}</p>
