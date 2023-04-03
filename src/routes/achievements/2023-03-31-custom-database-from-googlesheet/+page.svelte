@@ -3,7 +3,7 @@
   console.log(data);
 </script>
 
-<h1>Employees</h1>
+<h1>Crypto Coins</h1>
 <div class="divcard">
 {#if data.cryptocoins && data.cryptocoins.length > 0}
   <ul>
